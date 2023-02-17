@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="w-3/4 mx-auto h-full text-center text-gray-600 mt-7">
+      <p class="text-3xl font-thin">Reliable, efficient delivery</p>
+      <h2 class="text-3xl font-bold">Powered by Technology</h2>
+      <div class="w-[50%] mx-auto pt-6 text-gray-400 text-sm">
+        <p>
+          Our Artificial intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+      <div class="w-full h-full mx-auto lg:flex grid-rows-3 justify-center pt-8 pb-6 pl-6 pr-6">
+        <div
+          class="bg-white w-[250px] h-[160px] rounded-md box-1 pt-3 pl-4 pr-4 text-left">
+          <h2 class="font-bold text-gray-600">Team Builder</h2>
+          <p class="text-xs font-normal text-gray-400">
+            scans our talent network to create the optimal team for your
+            projects
+          </p>
+          <div class="w-[45px] h-[45px] relative left-40 top-8">
+            <img src="./images/icon-team-builder.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-[250px] h-[160px] rounded-md bg-white box-2 pt-3 pl-4 pr-4 lg:absolute left-64 bottom-44 text-left">
+          <h2 class="font-bold text-gray-600">Supervisor</h2>
+          <p class="text-xs font-normal text-gray-400">
+            Monitor activity to identify projects roadblocks
+          </p>
+          <div class="w-[45px] h-[45px] relative left-40 top-8">
+            <img src="./images/icon-supervisor.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-[250px] h-[160px] rounded-md bg-white box-3 pt-3 pl-4 pr-4 lg:absolute right-64 bottom-44 text-left">
+          <h2 class="font-bold text-gray-600">Calculator</h2>
+          <p class="text-xs font-normal text-gray-400">
+            Uses data from past project to provide better delivery estimates
+          </p>
+          <div class="w-[45px] h-[45px] relative left-40 top-8">
+            <img src="./images/icon-calculator.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-[250px] h-[160px] rounded-md bg-white box-4 pt-3 pl-4 pr-4 lg:absolute bottom-20 text-left">
+          <h2 class="font-bold text-gray-600">Karma</h2>
+          <p class="text-xs font-normal text-gray-400">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <div class=" image relative left-40 top-8"></div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

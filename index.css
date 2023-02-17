@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(248, 247, 245);
+}
+
+.box-1{
+    border-top:solid rgb(243, 91, 91) 3px ;
+    box-shadow: rgb(232, 232, 253) 0px 10px 10px  ;
+}
+.box-2{
+    box-shadow: rgb(232, 232, 253) 0px 10px 10px  ;
+    border-top: solid rgb(135, 225, 241) 3px;
+}
+
+.box-3{
+    box-shadow: rgb(232, 232, 253) 0px 10px 10px  ;
+    border-top: solid 3px rgb(30, 131, 213);
+}
+
+.box-4{
+    box-shadow: rgb(232, 232, 253) 0px 10px 10px  ;
+    border-top: solid 3px rgb(226, 175, 63);
+}
+
+.image{
+    height: 45px;
+    width: 45px;
+    background-image: url(./images/icon-karma.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
